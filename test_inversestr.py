@@ -5,7 +5,7 @@ import inverse_string
 def test1_inverse_str():
 	assert inverse_string.invert_string("this is test") == "tset si siht" , "Test failed for 'this is test'"
 def test2_inverse_str():
-	assert inverse_string.invert_string("None") == "" , "Test failed for None"
+	assert inverse_string.invert_string(None) == "" , "Test failed for None"
 def test3_inverse_str(): 
     assert inverse_string.invert_string("") == "" , "Test Failed For Empty Input Value"    
 def test4_inverse_str(): 
