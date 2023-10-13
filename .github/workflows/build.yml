@@ -1,4 +1,4 @@
-name: invert string
+name: Invert String
 on:
   push:
     branches:
