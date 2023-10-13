@@ -12,7 +12,7 @@ inverse string
 * Create new repository : inverse-string using github.com
 * Go to gitbash.
   - Type git add .
-  - Type git commit -m "Invetor" 
+  - Type git commit -m "Invetor"
   - Type git push
 * Go to github.com and run Actions
 * Click  Test with pytest to view the results.
