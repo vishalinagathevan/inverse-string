@@ -4,5 +4,6 @@ inverse string
 ## Install the python version 3.8. Reference [https://www.youtube.com/watch?v=bnhQBUEpWlg]
 
 ## How to run locally :-
-### pytest
-
+* Go to shell Script
+* Run: Pytest
+   
