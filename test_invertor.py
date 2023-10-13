@@ -1,12 +1,12 @@
 #  Test cases for inverting given string 
-import invert
+import invertor
 
 def test_valid_string():
-	assert inverse_string.invert_string("abcd") == "dcba" , "Failed For Valid String"
+	assert invertor.invert("abcd") == "dcba" , "Failed For Valid String"
 def test_none():
-	assert inverse_string.invert_string(None) == "" , "Faild For None"
+	assert invertor.invert(None) == "" , "Faild For None"
 def test_empty(): 
-    assert inverse_string.invert_string("") == "" , "Failed For Empty String"    
+    assert invertor.invert("") == "" , "Failed For Empty String"    
 def test_single_character(): 
-    assert inverse_string.invert_string("a") == "a" , "Failed For Single Character"  
+    assert invertor.invert("a") == "a" , "Failed For Single Character"  
           
